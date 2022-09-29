@@ -19,11 +19,9 @@ public class Example17 {
         if (s == 60) {
             m = m+1;
             s = 0;
-            System.out.println(m);
         } if (m == 60) {
             h = h + 1;
             m = 0;
-            System.out.println(h + 1);
             System.out.println(h + " hours " + m + " min " + s + " sec ");
         } else {
             System.out.println(h + " hours " + m + " min " + s + " sec ");
